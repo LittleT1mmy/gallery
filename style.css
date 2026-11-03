@@ -110,3 +110,8 @@ h1 em { color: var(--accent); font-weight: 500; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; }
 }
+
+/* Keep the travel photos above the slide background and under the captions. */
+.destination-image { z-index: 0; }
+.image-shade { z-index: 1; }
+.card-topline, .destination-info, .image-caption { z-index: 2; }
