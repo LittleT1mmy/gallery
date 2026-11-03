@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wander — Places worth slowing down for</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="page-shell">
+<header class="topbar"><a class="brand" href="#home">wander<span class="brand-dot">.</span></a><span class="topbar-note">A little inspiration for your next escape</span></header>
+<section class="hero" id="home"><div class="intro"><p class="eyebrow">THE WORLD, IN A MOMENT</p><h1>Places worth<br><em>slowing down</em> for.</h1><p class="intro-copy">A few faraway corners to remind you how wide and wonderful the world can feel.</p></div>
+<div class="carousel-wrap" id="discover"><div class="swiper travel-swiper" aria-label="Travel destinations"><div class="swiper-wrapper">
+<article class="swiper-slide destination-card"><img class="destination-image" src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1800&q=85" alt="Matterhorn above a quiet alpine lake at dusk"><div class="image-shade"></div><div class="card-topline"><span>SWITZERLAND</span><span>01 / 03</span></div><div class="destination-info"><p>THE ALPINE STILLNESS</p><h2>Under the<br>watch of giants.</h2><p>Zermatt · Valais Alps</p></div></article>
+<article class="swiper-slide destination-card"><img class="destination-image" src="https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1800&q=85" alt="Whitewashed Greek island homes overlook the Aegean Sea"><div class="image-shade"></div><div class="card-topline"><span>GREECE</span><span>02 / 03</span></div><div class="destination-info"><p>THE AEGEAN BLUE</p><h2>Where the day<br>drifts into blue.</h2><p>Santorini · Cyclades</p></div></article>
+<article class="swiper-slide destination-card"><img class="destination-image" src="https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?auto=format&fit=crop&w=1800&q=85" alt="Tropical island with palms and turquoise water"><div class="image-shade"></div><div class="card-topline"><span>INDONESIA</span><span>03 / 03</span></div><div class="destination-info"><p>THE ISLAND RHYTHM</p><h2>Let the tide<br>set the tempo.</h2><p>Nusa Penida · Bali</p></div></article>
+</div><div class="swiper-pagination"></div><button class="swiper-button-prev" aria-label="Previous destination">←</button><button class="swiper-button-next" aria-label="Next destination">→</button></div><div class="carousel-footer">SCROLL A LITTLE, DREAM A LOT</div></div></section></main>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>new Swiper('.travel-swiper',{loop:true,autoplay:{delay:2000,disableOnInteraction:false,pauseOnMouseEnter:true},pagination:{el:'.swiper-pagination',clickable:true},navigation:{nextEl:'.swiper-button-next',prevEl:'.swiper-button-prev'}});</script>
+</body>
+</html>
